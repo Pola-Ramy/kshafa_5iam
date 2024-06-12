@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    font-family: system-ui;
+}
+
+.box {
+    /* background-color: aqua; */
+    width: 90%;
+    margin: auto;
+}
+
+.logo,
+.buttonss {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    padding-top: 15px;
+    height: 175px;
+    width: 175px;
+}
+
+.buttonss {
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+
+}
+
+.buttonss button {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff;
+    background: #1c2c94;
+    line-height: 1.15;
+    font-size: 18px;
+}
+
+.box .title {
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #051266;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 15px;
+    margin: 75px 25px;
+    text-align: right;
+}
+
+.question {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.answer {
+    margin-top: 10px;
+    font-size: 22px;
+
+}
+
+.content .image {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 15px;
+    margin: 75px 25px;
+}
+.pic {
+    margin-bottom: 35px;
+    height: 250px;
+    width: 135px;
+}
